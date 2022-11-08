@@ -2,14 +2,15 @@ import streamlit as st
 from convert import pdf_docx , save_uploadedfile
 
 header = st.container()
-dataset = st.container()
+body = st.container()
+footer = st.container()
 
 
 with header:
     st.title("Bem vindo ao Conversor de Pdf para Doc!")
 
 
-with dataset:
+with body:
     st.header("Faça o Upload de Seu arquivo PDF")
 
     uploaded_file = st.file_uploader("Escolha o Arquivo", type='pdf', accept_multiple_files=False, key=None, help='Somente serão aceitos arquivos com extensão pdf')
@@ -24,7 +25,8 @@ with dataset:
         with open(file_out, 'rb') as f:
             st.download_button('Download Docx', f, file_name=name_out)
 
-
+with footer:
+    st.caption("Criado por Gustavo: dossantosgss@gmail.com")
 
 
 
