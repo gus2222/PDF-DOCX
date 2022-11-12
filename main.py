@@ -1,5 +1,4 @@
 import streamlit as st
-import streamlit.components.v1 as components
 from convert import pdf_docx , save_uploadedfile
 
 st.set_page_config(page_title="PDF-DOCX",page_icon="./pdf_icon.png")
@@ -7,9 +6,7 @@ header = st.container()
 body = st.container()
 footer = st.container()
 
-components.html("""
-<footer class="css-1q1n0ol egzxvld0">Criado por<a href="mailto:dossantosgss@gmail.com" class="css-1vbd788 egzxvld1">Gustavo</a> </footer>
-""")
+
 st.markdown(""" <style>
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
