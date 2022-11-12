@@ -8,7 +8,7 @@ body = st.container()
 footer = st.container()
 
 components.html("""
-<footer class="css-1q1n0ol egzxvld0">"Criado por"<a href="dossantosgss@gmail.com" class="css-1vbd788 egzxvld1">Gustavo</a> </footer>
+<footer class="css-1q1n0ol egzxvld0">Criado por<a href="mailto:dossantosgss@gmail.com" class="css-1vbd788 egzxvld1">Gustavo</a> </footer>
 """)
 st.markdown(""" <style>
 #MainMenu {visibility: hidden;}
