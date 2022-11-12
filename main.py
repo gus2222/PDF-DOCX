@@ -5,7 +5,7 @@ st.set_page_config(page_title="PDF-DOCX",page_icon="./pdf_icon.png")
 header = st.container()
 body = st.container()
 footer = st.container()
-st.markdown(""" <footer class="css-1q1n0ol egzxvld0">"Criado por"<a href="dossantosgss@gmail.com" class="css-1vbd788 egzxvld1"</footer><style>
+st.markdown(""" <footer class="css-1q1n0ol egzxvld0">"Criado por"<a href="dossantosgss@gmail.com" class="css-1vbd788 egzxvld1">Gustavo</a> </footer><style>
 #MainMenu {visibility: hidden;}
 
 </style> """, unsafe_allow_html=True)
