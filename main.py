@@ -1,10 +1,14 @@
 import streamlit as st
 from convert import pdf_docx , save_uploadedfile
 
+st.set_page_config(page_title="PDF-DOCX",page_icon="./pdf_icon.png")
 header = st.container()
 body = st.container()
 footer = st.container()
+st.markdown(""" <footer class="css-1q1n0ol egzxvld0">"Criado por"<a href="dossantosgss@gmail.com" class="css-1vbd788 egzxvld1"</footer><style>
+#MainMenu {visibility: hidden;}
 
+</style> """, unsafe_allow_html=True)
 
 with header:
     st.title("Bem vindo ao Conversor de Pdf para Doc!")
