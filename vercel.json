@@ -4,4 +4,8 @@
     { "src": "./main.py", "use": "@vercel/python" },
   ],
   "routes": [{ "src": "/(.*)", "dest": "./main.py" }]
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 34b1d1cb8d859343b9882789965966479d3b439f
