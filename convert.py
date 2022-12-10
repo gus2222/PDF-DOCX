@@ -21,7 +21,7 @@ def save_uploadedfile(uploadedfile):
         f.write(uploadedfile.getbuffer())
     return "Arquivo {} Salvo".format(uploadedfile.name)
 
-def clean():
+def clean():# check arquives .docx and .pdf  then clean.
     f_in_dir = os.listdir(".")
     fil_f = [file for file in f_in_dir if file.endswith(".docx") or file.endswith(".pdf")]
     if len(fil_f) >= 4 :

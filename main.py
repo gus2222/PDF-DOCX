@@ -13,7 +13,7 @@ footer {visibility: hidden;}
 </style> """, unsafe_allow_html=True)
 
 with header:
-    st.title("Bem vindo ao Conversor de Pdf para Doc!")
+    st.title("Bem vindo ao Conversor de Pdf para Docx!")
 
 
 with body:
